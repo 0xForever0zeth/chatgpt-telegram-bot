@@ -12,7 +12,7 @@ def main():
     # Read .env file
     load_dotenv()
 
-    # Setup logging
+    # Start to Setup logging
     logging.basicConfig(
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         level=logging.INFO
